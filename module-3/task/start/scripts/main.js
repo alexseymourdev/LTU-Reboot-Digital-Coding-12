@@ -1,14 +1,31 @@
+console.log('test')
 
+// Single line comment
 
-//function Multiply
-function mutliply(mutliplyer){
-    //take input for times table
-    //LOOP from 1 - 12
-    for(counter=1;counter <= 12; counter++){
-        //create a message for the current sum
-        let sum = counter * multiplyer;
-        let strMessage = multiplyer + ' x ' + counter + ' = ' + sum;
-        //OUTPUT sum
-        console.log(strMessage);
-    }
+/*
+
+Multi-line comment
+
+*/
+
+let strProductName = 'Tinned Beans';
+let price = 0.99;
+let quantity = 4;
+let blnInStock = true;
+let discountAmount = 0;
+
+console.log(strProductName);
+console.log(price);
+
+//List of things that are "false"
+let strVariable = '';
+let numberOfKittens = 0;
+let blnVariable = false;
+let arrVariable = [];
+let objVariable = {};
+let variable; //undefined
+let emptyVar = null;
+
+if(strVariable){
+    //execute this code
 }
